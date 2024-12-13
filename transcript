@@ -1,0 +1,54 @@
+# Compile of Datapath.v was successful with warnings.
+# Compile of Controller.v was successful.
+# Compile of RISC_V.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# 4 compiles, 0 failed with no errors.
+# Compile of Datapath.v was successful with warnings.
+# Compile of Controller.v was successful.
+# Compile of RISC_V.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# 4 compiles, 0 failed with no errors.
+vsim work.RISC_V_TB
+# vsim work.RISC_V_TB 
+# Start time: 19:23:41 on Dec 12,2024
+# Loading work.RISC_V_TB
+# Loading work.RISC_V
+# Loading work.Datapath
+# Loading work.ProgramCounter
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.Register
+# Loading work.RegisterFile
+# Loading work.ImmediateExtension
+# Loading work.ALU
+# Loading work.Controller
+# Loading work.ALU_Controller
+# Loading work.PCController
+add wave -position insertpoint  \
+sim:/RISC_V_TB/UUT/DPTH/IDMem/dataMem
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ACER  Hostname: DESKTOP-UCM1HS5  ProcessID: 13928
+#           Attempting to use alternate WLF file "./wlftct7434".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftct7434
+# (vsim-4077) Logging very large object: /RISC_V_TB/UUT/DPTH/IDMem/dataMem
+add wave -position insertpoint  \
+sim:/RISC_V_TB/UUT/DPTH/RegFile/RegFile
+run -all
+# ** Note: $stop    : F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v(123)
+#    Time: 2610 ns  Iteration: 0  Instance: /RISC_V_TB
+# Break in Module RISC_V_TB at F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v line 123
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/RISC_V_TB/UUT/DPTH/IDMem/dataMem
+# (vsim-4077) Logging very large object: /RISC_V_TB/UUT/DPTH/IDMem/dataMem
+add wave -position insertpoint  \
+sim:/RISC_V_TB/UUT/DPTH/RegFile/RegFile
+run -all
+# ** Note: $stop    : F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v(123)
+#    Time: 2610 ns  Iteration: 0  Instance: /RISC_V_TB
+# Break in Module RISC_V_TB at F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v line 123
+quit -sim
+# End time: 19:37:18 on Dec 12,2024, Elapsed time: 0:13:37
+# Errors: 0, Warnings: 1

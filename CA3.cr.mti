@@ -1,0 +1,58 @@
+{F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v} {2 {vlog -work work -stats=none {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_TB
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/testbenches.v(8): (vlog-2417) Multiple packed dimensions are not allowed.
+-- Compiling module Adder_TB
+-- Compiling module ALU_TB
+-- Compiling module InstructionMemory_TB
+-- Compiling module DataMemory_TB
+-- Compiling module RISC_V_TB
+
+Top level modules:
+	MUX_TB
+	Adder_TB
+	ALU_TB
+	InstructionMemory_TB
+	DataMemory_TB
+	RISC_V_TB
+
+} {} {}} {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/RISC_V.v} {1 {vlog -work work -stats=none {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/RISC_V.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V
+
+Top level modules:
+	RISC_V
+
+} {} {}} {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v} {2 {vlog -work work -stats=none {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+-- Compiling module MUX
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(20): (vlog-2417) Multiple packed dimensions are not allowed.
+-- Compiling module Adder
+-- Compiling module ALU
+-- Compiling module ImmediateExtension
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(77): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(80): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(81): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module ProgramCounter
+-- Compiling module RegisterFile
+** Warning: F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Datapath.v(129): (vlog-2417) Multiple packed dimensions are not allowed.
+-- Compiling module Memory
+-- Compiling module Datapath
+
+Top level modules:
+	Adder
+	Datapath
+
+} {} {}} {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Controller.v} {1 {vlog -work work -stats=none {F:/UT/Current/Digital Systems 2/Computer Assignments/CA3/SRC/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_Controller
+-- Compiling module PCController
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}}
